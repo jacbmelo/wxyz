@@ -7,10 +7,12 @@ import { AppComponent } from './app.component';
 
 //Import ng-bootstrap
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { SimpleFormComponent } from './simple-form/simple-form.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SimpleFormComponent
   ],
   imports: [
     BrowserModule,
