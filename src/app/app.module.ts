@@ -7,7 +7,10 @@ import { AppComponent } from './app.component';
 
 //Import ng-bootstrap
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
 import { SimpleFormComponent } from './simple-form/simple-form.component';
+import { MailService } from './mail.service';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +23,9 @@ import { SimpleFormComponent } from './simple-form/simple-form.component';
     HttpModule,
     NgbModule.forRoot()
   ],
-  providers: [],
+  providers: [
+    {provide: 'mail', useClass:MailService}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

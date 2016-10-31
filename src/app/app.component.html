@@ -1,8 +1,22 @@
-<div class="jumbotron">
-  <h1 class="display-3">{{title}}</h1>
-  <p class="lead">{{subtitle}}</p>
-  <p class="lead">
-    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-  </p>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-3">{{title}}</h1>
+    <p class="lead">{{subtitle}}</p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </p>
+  </div>
 </div>
-<app-simple-form></app-simple-form>
+<div class="container">
+  <div *ngFor="let alert of mail.alerts"  class="row">
+    <app-simple-form 
+        [(value)]="alert.message" 
+        (update)="onUpdate(alert.id, alert.type, $event.text)">
+    </app-simple-form>
+    <ngb-alert 
+        [type]="alert.type" 
+        (close)="mail.closeAlert(alert)">
+      {{ alert.message }}
+    </ngb-alert>
+  </div>
+</div>

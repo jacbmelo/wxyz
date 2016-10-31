@@ -1,7 +1,8 @@
-<form class="form-inline">
-	<div class="form-group">
+<div class="form-inline">
+	<div class="form-group" [ngClass]="{'has-success':isValid}">
 	  <label for="input1">Input 1</label>
-	  <input #input1 class="form-control" type="text" id="input1">
-	  <button (click)="onClick($event, input1.value)" class="btn">Click me!</button>
+	  <input #input1 class="form-control" type="text" id="input1" [(ngModel)]="value">
+	  <button (click)="update.emit({text:value})" class="btn">Update</button>
+    <small id="help" class="form-text text-muted">{{value}}</small>
 	</div>
-</form>
+</div>
