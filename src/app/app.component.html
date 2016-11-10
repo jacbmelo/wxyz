@@ -1,22 +1,42 @@
-<div class="jumbotron jumbotron-fluid">
+<header class="navbar navbar-light navbar-static-top bd-navbar">
   <div class="container">
-    <h1 class="display-3">{{title}}</h1>
-    <p class="lead">{{subtitle}}</p>
-    <p class="lead">
-      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-    </p>
+    <nav>
+      <div class="clearfix">
+        <button class="navbar-toggler float-xs-right hidden-sm-up" type="button" data-toggle="collapse" data-target="#bd-main-nav" aria-controls="bd-main-nav" aria-expanded="false" aria-label="Toggle navigation"></button>
+        <a class="navbar-brand hidden-sm-up" href="/">
+          WXYZ
+        </a>
+      </div>
+      <div class="collapse navbar-toggleable-xs" id="bd-main-nav">
+        <ul class="nav navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-item nav-link active" routerLink="/">
+              <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+              WXYZ
+            </a>
+          </li>
+          <li class="nav-item">
+            <!--<a class="nav-item nav-link" href="/about">About</a>-->
+            <a routerLink="/about" class="nav-item nav-link">About</a>
+
+          </li>
+        </ul>
+      </div>
+    </nav>
   </div>
-</div>
-<div class="container">
-  <div *ngFor="let alert of mail.alerts"  class="row">
-    <app-simple-form 
-        [(value)]="alert.message" 
-        (update)="onUpdate(alert.id, alert.type, $event.text)">
-    </app-simple-form>
-    <ngb-alert 
-        [type]="alert.type" 
-        (close)="mail.closeAlert(alert)">
-      {{ alert.message }}
-    </ngb-alert>
+</header>
+
+
+
+<router-outlet></router-outlet>
+
+<footer class="app-footer text-muted">
+  <div class="container">
+    <hr/>
+    <ul class="app-footer-links">
+      <li><a href="https://github.com/jacbmelo/wxyz">GitHub</a></li>
+      <li><a href="https://twitter.com/jacbmelo">Twitter</a></li>
+    </ul>
+    <p>Designed and built with ❤ by <a href="https://www.github.com/jacbmelo/" target="_blank">jacbmelo</a>. Code licensed under <a rel="license" href="https://raw.githubusercontent.com/jacbmelo/wxyz/master/LICENSE.txt" target="_blank">MIT</a>.</p>
   </div>
-</div>
+</footer>
