@@ -3,8 +3,8 @@ import { Injectable, Input } from '@angular/core';
 @Injectable()
 export class MailService {
 
-	@Input()
-	public alerts: Array<IAlert> = [];
+  @Input()
+  public alerts: Array<IAlert> = [];
 
   constructor() {
     this.alerts.push({
@@ -32,7 +32,7 @@ export class MailService {
   }
 
   public update(id, type, message) {
-  	this.alerts = this.alerts.map(m => m.id === id ? {id, type, message} : m);
+    this.alerts = this.alerts.map(m => m.id === id ? {id, type, message} : m);
   }
 
 }
