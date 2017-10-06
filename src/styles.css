@@ -1,14 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+/* App global styles */
+
 @import url('https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i|Lato:400,400i,700,700i');
 
-@import url('https://opensource.keycdn.com/fontawesome/4.6.3/font-awesome.min.css');
+/* Font Awesome by Dave Gandy - http://fontawesome.io */
+@import url('https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css');
 
 body {
   font-family: 'Arimo', 'Helvetiva Neue', 'Helvetiva', 'Arial', sans-serif;
+  margin-top: 54px;
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.bg-light {
+  opacity: 0.95;
+}
+
+.navbar-brand {
+  font-weight: bold;
 }
 
 .app-footer {
-  padding: 4rem 0;
+  border-top: 1px solid rgba(0,0,0,.1);
+  padding: 2rem 1rem;
   margin-top: 4rem;
   font-size: 85%;
   text-align: center;
@@ -60,5 +76,5 @@ body {
 }
 
 .display-1, .display-2, .display-3, .display-4 {
-  font-weight: bold; 
+  font-weight: bold;
 }

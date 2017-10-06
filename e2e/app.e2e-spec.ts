@@ -1,14 +1,14 @@
-import { WxyzPage } from './app.po';
+import { AppPage } from './app.po';
 
-describe('wxyz App', function() {
-  let page: WxyzPage;
+describe('ifap-ng-app-seed App', () => {
+  let page: AppPage;
 
   beforeEach(() => {
-    page = new WxyzPage();
+    page = new AppPage();
   });
 
-  it('should display message saying app works', () => {
+  it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('Welcome to app!');
   });
 });
