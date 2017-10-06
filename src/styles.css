@@ -1,12 +1,13 @@
 /* App global styles */
 
-@import url('https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i|Lato:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i');
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i'); */
 
 /* Font Awesome by Dave Gandy - http://fontawesome.io */
 @import url('https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css');
 
 body {
-  font-family: 'Arimo', 'Helvetiva Neue', 'Helvetiva', 'Arial', sans-serif;
+  font-family: 'Arimo', 'Helvetica Neue', 'Helvetiva', 'Arial', sans-serif;
   margin-top: 54px;
 }
 
