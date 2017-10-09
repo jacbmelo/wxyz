@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy-gh-pages": "ng build --prod --base-href \"/wxyz/\" && angular-cli-ghpages -d dist -b gh-pages",
+    "deploy-gh-pages": "ng build --prod --base-href \"/wxyz/\" && angular-cli-ghpages -d dist -b gh-pages -S",
     "deploy-gcloud": "gcloud config set project wxyzapp && gcloud app deploy && gcloud app browse"
   },
   "private": true,
