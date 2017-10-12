@@ -39,33 +39,5 @@ to deploy to Github Pages.
 
 To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-## Add Bootstrap 4
-
-Run in your terminal:
-
-```sh
-  npm install jquery --save
-  npm install popper.js --save
-  npm install bootstrap@4.0.0-beta --save
-```
-
-Open **angular-cli.json** file and add the style and scripts:
-
-```javascript
-  "styles": [
-    "../node_modules/bootstrap/dist/css/bootstrap.min.css",
-    "styles.css"
-  ],
-  "scripts": [
-    "../node_modules/jquery/dist/jquery.slim.js",
-    "../node_modules/popper.js/dist/umd/popper.min.js",
-    "../node_modules/bootstrap/dist/js/bootstrap.min.js"
-  ],
-```
-
-## Adding PWA support
-
-See [PWAs with the Angular CLI](https://medium.com/@amcdnl/service-worker-pwas-with-the-angular-cli-98a8f16d62d6).
-
 ----
 Written in 2017-10-12 by [jacbmelo](https://www.github.com/jacbmelo/). Code and documentation licensed under [MIT](https://raw.githubusercontent.com/jacbmelo/wxyz/master/LICENSE.txt).

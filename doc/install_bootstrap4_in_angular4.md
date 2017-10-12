@@ -1,5 +1,4 @@
-How to install Bootstrap 4 in Angular 4
-=======================================
+# Iinstalling Bootstrap 4 in Angular 4
 
 Run in your terminal:
 
@@ -24,4 +23,4 @@ Open **angular-cli.json** file and add the style and scripts:
 ```
 
 ----
-Written in 2017-10-09 with ❤ by [jacbmelo](https://www.github.com/jacbmelo/). Code and documentation licensed under [MIT](https://raw.githubusercontent.com/jacbmelo/wxyz/master/LICENSE.txt).
+Written in 2017-10-09 by [jacbmelo](https://www.github.com/jacbmelo/). Code and documentation licensed under [MIT](https://raw.githubusercontent.com/jacbmelo/wxyz/master/LICENSE.txt).
