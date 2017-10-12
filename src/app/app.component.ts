@@ -1,4 +1,8 @@
 import { Component, Inject } from '@angular/core';
+import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
+import { AngularFireAuth } from 'angularfire2/auth';
+import { Observable } from 'rxjs/Observable';
+import * as firebase from 'firebase/app';
 
 @Component({
   selector: 'app-root',
@@ -9,9 +13,31 @@ import { Component, Inject } from '@angular/core';
 export class AppComponent {
   title = 'app';
 
-  onUpdate(id, type, text) {
-    this.mail.update(id, type, text);
+  user: Observable<firebase.User>;
+  items: FirebaseListObservable<any[]>;
+  msgVal: '';
+
+  constructor(public afAuth: AngularFireAuth, public af: AngularFireDatabase) {
+    this.items = af.list('/messages', {
+      query: {
+        limitToLast: 50
+      }
+    });
+
+    this.user = this.afAuth.authState;
+
   }
 
-  constructor(@Inject('mail') private mail) {}
+  login() {
+    this.afAuth.auth.signInAnonymously();
+  }
+
+  logout() {
+    this.afAuth.auth.signOut();
+  }
+
+  Send(desc: string) {
+    this.items.push({ message: desc});
+    this.msgVal = '';
+  }
 }
