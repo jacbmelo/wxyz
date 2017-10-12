@@ -16,6 +16,7 @@ import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { AuthService } from './auth.service';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { FooterComponent } from './footer/footer.component';
     RouterModule.forRoot(AppRoutes)
   ],
   providers: [
-    {provide: 'mail', useClass:MailService}
+    {provide: 'mail', useClass:MailService},
+    AuthService
   ],
   bootstrap: [AppComponent]
 })
