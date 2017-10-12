@@ -2,16 +2,28 @@
   "static": {
     "urls": {
       "/wxyz/polyfills.8eba0ab53b5457105d75.bundle.js": "1e4779eb00ffdcce4c9f4f6f7ca69d60d101b2ab",
-      "/wxyz/main.77f5887c10e4ca21df85.bundle.js": "bc2bdc2b8b94056bc64d2d369ce2912ae0a1efcc",
+      "/wxyz/main.5298392e548e8a7a8262.bundle.js": "789a04dc02164f95a4ced6c69e57f5f48543341e",
       "/wxyz/sw-register.6819cd2c5fa25470ecf2.bundle.js": "50d549edfbd188ed199d8d0b079afa593202e3ea",
       "/wxyz/vendor.9495a623a88e47566810.bundle.js": "e9f0e8d6fcab584c389d0964fcdcbc061b2c0183",
-      "/wxyz/inline.74c3df47832852baa5cc.bundle.js": "c2a4b5e3ce0693b49dc905fda0b55c3c2ada9ecd",
-      "/wxyz/styles.8eb56f72c7b410d2d362.bundle.css": "61d61ccbee2aa6db3bca9ad56a7b0e3013b66895",
+      "/wxyz/inline.ac23ab20eb6109233e63.bundle.js": "0e2210f54bb914785b87aa7dfc56a6dc13d63ea3",
+      "/wxyz/styles.751bda03289033873ac7.bundle.css": "279952c86b6d370872d0ce83985ece7cf21273a2",
       "/wxyz/scripts.4e62aa3ab5cc73254694.bundle.js": "9e69680cbd0e0f24bf71371475b54a9dee527cc7",
       "/wxyz/assets/.npmignore": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-      "/wxyz/assets/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-      "/wxyz/manifest.json": "ec6c88ac954e58198053617d4ec16bd0b7dba84e",
-      "/wxyz/index.html": "9b4907f4e4d6aa5c7368b641ce9b81c1074ccbb6"
+      "/wxyz/assets/apple-touch-icon.png": "3df832a4168974238ea2199ca1e61144477d276a",
+      "/wxyz/assets/android-chrome-512x512.png": "cf2bff2070e8b80a76b8b694ca30eb2b4ed352b6",
+      "/wxyz/assets/android-chrome-192x192.png": "68fed5752868ae62e6604ad3eebd948dedf1ec39",
+      "/wxyz/assets/favicon-32x32.png": "9bbd6088e7edcc5d04334cdf091a811d8c1999ab",
+      "/wxyz/assets/favicon-16x16.png": "dff3ec8958491c30e23ddd2c9c95ef311006fbbd",
+      "/wxyz/assets/mstile-144x144.png": "dec80d98fb3d2d97fdcb80c553a7bf1c321eddd8",
+      "/wxyz/assets/mstile-150x150.png": "af0437ed622fb94c836e03919f8e1e2b3cdab7a6",
+      "/wxyz/assets/favicon.ico": "b6ef70ebcea445de29f0bc3d1716c76c95dab2cc",
+      "/wxyz/assets/mstile-310x150.png": "f05b8f4903e50b1cdc5e4d99720cdb32b71e77fb",
+      "/wxyz/assets/mstile-310x310.png": "1ebda31882a5fe268dff9b339aeb4d66a13baf25",
+      "/wxyz/assets/safari-pinned-tab.svg": "58337248039712aee1e10f55c6d8267cf69976d9",
+      "/wxyz/assets/mstile-70x70.png": "0d73b58f40ec38480e5d5f1ac4ba942ae12763da",
+      "/wxyz/manifest.json": "8178d4fddb96e0fda934360e6a96d685bd54ef25",
+      "/wxyz/browserconfig.xml": "9ec4450d01ddf0acf6f7bf63045c6ccd3832e75b",
+      "/wxyz/index.html": "b2e450cc3e167dc9ef411214f7967fde519748f2"
     },
     "_generatedFromWebpack": true
   }
