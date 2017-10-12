@@ -1,0 +1,18 @@
+{
+  "static": {
+    "urls": {
+      "/polyfills.8eba0ab53b5457105d75.bundle.js": "1e4779eb00ffdcce4c9f4f6f7ca69d60d101b2ab",
+      "/main.77f5887c10e4ca21df85.bundle.js": "bc2bdc2b8b94056bc64d2d369ce2912ae0a1efcc",
+      "/sw-register.6819cd2c5fa25470ecf2.bundle.js": "50d549edfbd188ed199d8d0b079afa593202e3ea",
+      "/vendor.9495a623a88e47566810.bundle.js": "e9f0e8d6fcab584c389d0964fcdcbc061b2c0183",
+      "/inline.74c3df47832852baa5cc.bundle.js": "c2a4b5e3ce0693b49dc905fda0b55c3c2ada9ecd",
+      "/styles.8eb56f72c7b410d2d362.bundle.css": "61d61ccbee2aa6db3bca9ad56a7b0e3013b66895",
+      "/scripts.4e62aa3ab5cc73254694.bundle.js": "9e69680cbd0e0f24bf71371475b54a9dee527cc7",
+      "/assets/.npmignore": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "/assets/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+      "/manifest.json": "ec6c88ac954e58198053617d4ec16bd0b7dba84e",
+      "/index.html": "d4bb2b543705fbe39663963ba5281ab7358980e0"
+    },
+    "_generatedFromWebpack": true
+  }
+}
