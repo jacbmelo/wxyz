@@ -14,14 +14,17 @@ import { SimpleFormComponent } from './simple-form/simple-form.component';
 import { MailService } from './mail.service';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
-
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SimpleFormComponent,
     AboutComponent,
-    HomeComponent
+    HomeComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

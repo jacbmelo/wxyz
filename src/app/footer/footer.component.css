@@ -1,0 +1,13 @@
+.navbar-toggler:focus, .navbar-toggler:hover {
+    text-decoration: none;
+}
+
+.navbar-toggler:focus {
+    outline: 0px dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+}
+
+.navbar-toggler {
+    border: 0px solid transparent;
+    border-radius: .25rem;
+}
