@@ -4,4 +4,4 @@ machine:
         
 test: 
     override: 
-        - ng test --watch=false
+        - npm run-script test:once
