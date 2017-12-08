@@ -7,7 +7,7 @@ import { Component, Inject } from '@angular/core';
 })
 
 export class AppComponent {
-  title = 'app';
+  title = 'WXYZ';
 
   onUpdate(id, type, text) {
     this.mail.update(id, type, text);

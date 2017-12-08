@@ -7,8 +7,8 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { AppRoutes } from './app.routes';
 
-//Import ng-bootstrap
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+//Import ngx-bootstrap
+import {AlertModule} from 'ngx-bootstrap';
 
 import { SimpleFormComponent } from './simple-form/simple-form.component';
 import { MailService } from './mail.service';
@@ -30,7 +30,7 @@ import { FooterComponent } from './footer/footer.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    NgbModule.forRoot(),
+    AlertModule.forRoot(),
     RouterModule.forRoot(AppRoutes)
   ],
   providers: [
