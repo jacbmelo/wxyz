@@ -2,6 +2,3 @@ machine:
     node:
         version: 9.2
         
-test: 
-    override: 
-        - ng test --watch=false
