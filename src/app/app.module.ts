@@ -7,7 +7,7 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { AppRoutes } from './app.routes';
 
-//Import ngx-bootstrap
+// Import ngx-bootstrap
 import {AlertModule} from 'ngx-bootstrap';
 
 import { SimpleFormComponent } from './simple-form/simple-form.component';
@@ -34,7 +34,7 @@ import { FooterComponent } from './footer/footer.component';
     RouterModule.forRoot(AppRoutes)
   ],
   providers: [
-    {provide: 'mail', useClass:MailService}
+    {provide: 'mail', useClass: MailService}
   ],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA]

@@ -19,12 +19,14 @@ export class SimpleFormComponent implements OnInit {
   }
 
   onClick(event, value) {
-  	console.log(event);
-  	console.log(value);
+    console.log(event);
+    console.log(value);
   }
 
   isValid() {
-     if (this.value.length > 0) return true;
+     if (this.value.length > 0) {
+       return true;
+     }
      return false;
   }
 

@@ -5,7 +5,7 @@ import { SimpleFormComponent } from './simple-form.component';
 
 describe('Component: SimpleForm', () => {
   it('should create an instance', () => {
-    let component = new SimpleFormComponent();
+    const component = new SimpleFormComponent();
     expect(component).toBeTruthy();
   });
 });
